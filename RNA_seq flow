@@ -1,0 +1,116 @@
+#1. Create the main directory for RNA-seq analysis
+mkdir -p RNA-seq
+
+# Change to the RNAseq directory
+cd RNAseq
+
+# Create subdirectories with numbering and descriptions
+mkdir -p \
+    "01.raw_data" \
+    "02.clean_data" \
+    "03.QC" \
+    "04.Ref_Genome" \
+    "05.bam_file" \
+    "06.sorted_bam_files" \
+    "07.StringTie_assemble" \
+    "08.StringTie_quant"
+
+# Return to the original directory
+cd ..
+
+# 2. Data quality control
+output_dir="/home/data/t180319/ZXG/RNAseq/02.clean_data"
+
+# Loop through all the '_1.fastq.gz' files
+
+cd  /home/data/t180319/ZXG/RNAseq/01.raw_data
+for f1 in *_1.fastq.gz; do
+  # Corresponding '_2.fastq.gz' file
+  f2=${f1/_1.fastq.gz/_2.fastq.gz}
+  # Base filename without suffix
+  base_name=$(basename "$f1" _1.fastq.gz)
+
+  # Full paths for the output files
+  out1="${output_dir}/${base_name}_1.clean.fastq.gz"
+  out2="${output_dir}/${base_name}_2.clean.fastq.gz"
+  unpaired1="${output_dir}/${base_name}_1.unpaired.fastq.gz"
+  unpaired2="${output_dir}/${base_name}_2.unpaired.fastq.gz"
+
+  # Run Trimmomatic for paired-end data
+  trimmomatic PE -phred33 \
+  $f1 $f2 \
+  $out1 $unpaired1 \
+  $out2 $unpaired2 \
+  ILLUMINACLIP:Merged.Adapter.fa:2:30:10 LEADING:0 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36 -threads 20 
+done
+
+# 03 . FastQC 
+fastqc_output_dir="/home/data/t180319/ZXG/RNAseq/03.QC"
+
+# Ensure the FastQC output directory exists
+mkdir -p "$fastqc_output_dir"
+
+# Run FastQC on all clean data files
+for file in "/home/data/t180319/ZXG/RNAseq/02.clean_data"/*clean.fastq.gz; do
+  fastqc "$file" -o "$fastqc_output_dir" -t 4
+done
+
+# 04. Align to genome
+# Define the directory where the reference genome is stored
+genome_dir="/home/data/t180319/ZXG/RNAseq/04.Ref_Genome"
+
+# Define the directory for raw data and output BAM files
+raw_data_dir="/home/data/t180319/ZXG/RNAseq/02.clean_data"
+bam_output_dir="/home/data/t180319/ZXG/RNAseq/05.bam_files"
+sorted_bam_output_dir="/home/data/t180319/ZXG/RNAseq/06.sorted_bam_files"
+
+# Ensure the BAM output directories exist
+mkdir -p "$bam_output_dir"
+mkdir -p "$sorted_bam_output_dir"
+
+### HISAT2 build index
+hisat2-build -p 8 "${genome_dir}/Ostrinia_furnacalis.fa" "${genome_dir}/Ofu"
+
+# Align each pair of cleaned fastq files to the reference genome
+for i in "${raw_data_dir}"/*_1.clean.fastq.gz; do
+  sample=$(basename "$i" _1.clean.fastq.gz)
+
+  # Run HISAT2 for alignment
+  hisat2 -x "${genome_dir}/Ofu" -1 "$i" -2 "${raw_data_dir}/${sample}_2.clean.fastq.gz" -p 40 | \
+  samtools view -Sb - > "${bam_output_dir}/${sample}.bam"
+done
+
+# Sort the BAM files
+for bamfile in "${bam_output_dir}"/*.bam; do
+    sample=$(basename "$bamfile" .bam)
+
+    # Sort the BAM file and save it in the sorted_bam_files directory
+    samtools sort --threads 30 -o "${sorted_bam_output_dir}/${sample}.sorted.bam" "$bamfile"
+
+   # Build an index for the sorted BAM file
+    samtools index "$sorted_bam"
+done
+
+# 05. Transcript assembly and quantification with StringTie
+
+# Set the directory for StringTie output
+stringtie_output_dir="/home/data/t180319/ZXG/RNAseq/07.StringTie_assemble"
+mkdir -p "$stringtie_output_dir"
+
+# Reference annotation file
+gtf_file="${genome_dir}/Ostrinia_furnacalis.gtf"
+
+# Loop through sorted BAM files for assembly and quantification
+for bamfile in "${sorted_bam_output_dir}"/*.sorted.bam; do
+    sample=$(basename "$bamfile" .sorted.bam)
+
+    # Run StringTie for assembly and quantification
+    stringtie "$bamfile" -G "$gtf_file" -o "${stringtie_output_dir}/${sample}_assembled.gtf" -p 20 -B -e
+done
+
+# Merge GTF files (replace 'merged.gtf' with your desired output file name)
+stringtie --merge -p 20 -G "$gtf_file" -o "${stringtie_output_dir}/merged.gtf" ${stringtie_output_dir}/*.gtf
+
+# Generate expression matrix using prepDE.py script
+python prepDE.py -i "${stringtie_output_dir}"
+
