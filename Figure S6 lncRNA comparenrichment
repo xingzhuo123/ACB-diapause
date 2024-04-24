@@ -1,0 +1,35 @@
+library(org.Ofurnacalis.eg.db)
+library(clusterProfiler)
+library(stringr)
+library(enrichplot)
+library(dplyr)
+###compare enrich 
+setwd("D:\\Diapause\\yummiming\\lncRNA")
+
+lnc=read.csv("all_DEG_partgene2.csv")
+head(lnc)
+
+kk1 <- compareCluster(lnc,fun = "enrichKEGG",organism="ofu",
+                     pvalueCutoff=1, qvalueCutoff=1,pAdjustMethod = "none")
+
+kk1@compareClusterResult$Description <- gsub(" - Ostrinia furnacalis \\(Asian corn borer\\)", "", kk1@compareClusterResult$Description)
+write.csv(kk1,"compare KEGG enrichment.csv")
+
+kP<-dotplot(kk1,showCategory = 10,label_format=80) + 
+  scale_color_continuous(low="#E41A1C", high="#377EB8")+ ggtitle("GO Enrichment Comparison")+
+  theme(panel.grid.major.y = element_line(linetype='dotted', color='#808080'),
+        panel.grid.major.x = element_blank())
+
+gg1 <- compareCluster(lnc2,fun = "enrichGO",OrgDb="org.Ofurnacalis.eg.db",
+                      keyType="GID",pvalueCutoff=1, qvalueCutoff=1,pAdjustMethod = "none")
+
+gg2<- simplify(gg1, cutoff=0.7, by="p.adjust", select_fun=min)
+
+write.csv(kk1,"compare KEGG enrichment.csv")
+
+gp<-dotplot(gg1,showCategory = 10,label_format=80) + 
+  scale_color_continuous(low="#E41A1C", high="#377EB8")+ ggtitle("GO Enrichment Comparison")+
+  theme(panel.grid.major.y = element_line(linetype='dotted', color='#808080'),
+        panel.grid.major.x = element_blank())
+gp+kp
+
