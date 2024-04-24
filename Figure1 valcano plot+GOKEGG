@@ -1,0 +1,101 @@
+
+install.packages("ggvenn")
+devtools::install_github("BioSenior/ggvolcano")
+
+library(ggVolcano)
+library(ggvenn)
+## basic example code
+# load the data
+setwd("G:\\data\\RNAseq_count\\DEG analysis")
+
+##############Rna######
+diavsno<- read.csv(file = ".//Dia_vs_no_RNASeq//2-runDEG_DESeq2_results.csv",header = T)
+diavspre<- read.csv(file = ".//Dia_vs_pre_RNASeq/2-runDEG_DESeq2_results.csv",header = T)
+prevsno<- read.csv(file = ".//pre_vs_no_RNASeq//2-runDEG_DESeq2_results.csv",header = T)
+
+diavsno<- read.csv("2-runDEG_DESeq2_results.csv",header = T)
+# use the function -- add_regulate to add a regulate column  to the DEG result data. 
+data1 <- add_regulate(diavsno, log2FC_name = "log2FoldChange",
+                     fdr_name = "padj",log2FC = 1, fdr = 0.05)
+data2 <- add_regulate(diavspre, log2FC_name = "log2FoldChange",
+                      fdr_name = "padj",log2FC = 1, fdr = 0.05)
+data3 <- add_regulate(prevsno, log2FC_name = "log2FoldChange",
+                      fdr_name = "padj",log2FC = 1, fdr = 0.05)
+
+write.csv(data,"diavsno.DEG.csv")
+write.csv(data2,"diavspre.DEG.csv")
+write.csv(data3,"prevsno.DEG.csv")
+
+data1$group2 <- "diapause vs no-diapause"
+data2$group2 <- "diapause vs pre-diapause"
+data3$group2 <- "per-diapause vs no-diapause"
+
+# plot
+
+diavsno1<- ggvolcano(data1, x = "log2FoldChange", y = "padj",
+                    label = "X", label_number = 10, output = TRUE,
+                    filename = "volcano_plot_diapause vs no diapause")+facet_wrap(~group2)
+diavspre1<- ggvolcano(data2, x = "log2FoldChange", y = "padj",
+                     label = "X", label_number = 10, output = TRUE,
+                     filename = "volcano_plot_Diapause vs Pre_diapause")+facet_wrap(~group2)
+prevsno1<- ggvolcano(data3, x = "log2FoldChange", y = "padj",
+                    label = "X", label_number = 10, output = TRUE,
+                    filename = "volcano_plot_Pre_diapause vs no diapause")+facet_wrap(~group2)
+diavsno1+diavspre1+prevsno1
+
+ggsave("RNAseq_valcano.pdf",width = 12,height = 5 )
+ggsave("RNAseq_valcano.tiff",width = 12,height = 5 )
+
+
+##############DEG 
+# Threshold value  (Adjust P-value < 0.05 and |Log2FC| > 1) 
+sigDEG1 <- data1$X[data1$padj < 0.05 
+                               & !is.na(data1$padj) 
+                               & !is.na(data1$log2FoldChange) 
+                               & (data1$log2FoldChange > 1 | data1$log2FoldChange < -1)]
+
+sigDEG2 <- data2$X[data1$padj < 0.05 
+                   & !is.na(data1$padj) 
+                   & !is.na(data1$log2FoldChange) 
+                   & (data1$log2FoldChange > 1 | data1$log2FoldChange < -1)]
+sigDEG3 <- data3$X[data1$padj < 0.05 
+                   & !is.na(data1$padj) 
+                   & !is.na(data1$log2FoldChange) 
+                   & (data1$log2FoldChange > 1 | data1$log2FoldChange < -1)]
+
+write.csv(DEGs_table, "DEGs.csv")
+
+######vennplot 
+
+Rv1<- read.csv("Sigdiavsno.csv")
+Rv2<- read.csv("Sigdiavspre.csv")
+Rv3<- read.csv("Sigprevsno.csv")
+
+venda<- list("Dia vs no-dia"= sigDEG1 ,"Dia vs Pre-dia"=sigDEG2,"Pre_dia vs no-dia"=sigDEG3 )
+
+VENN<- ggvenn(venda,fill_color = c("#FC8D62","#8DA0CB", "#66C2A5"),stroke_color = "white",set_name_size=4,stroke_size = 0.5,stroke_alpha = 0.5)
+ggsave("venn_RNAseq.pdf",width = 4,height = 4)
+ggsave("venn_RNAseq.tiff",width = 4,height = 4)
+
+library(yyplot)
+
+library(UpSetR)
+install.packages("UpSetR")
+
+a<- upset(fromList(venda),nsets = 3, main.bar.color = "#FC8D62",
+          sets.bar.color = "#66C2A5", 
+          point.size = 8,
+          line.size = 1.5,set_size.show=T,text.scale=1.5,
+          set_size.numbers_size=9,
+          mainbar.y.label = "Gene number of intersection",
+          sets.x.label = "Gene number of each sets",
+          queries = list(list(query = intersects,
+                              params  = list("Dia vs no-dia",
+                                             "Dia vs Pre-dia",
+                                             "Pre_dia vs no-dia"),
+                              color = "#8DA0CB",active = T)  
+          )) #+ ggtitle('The overlap between genres')
+
+
+ggsave("upsetplot_RNASeq.pdf",width = 5,height = 4)
+
