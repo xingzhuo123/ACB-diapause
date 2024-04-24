@@ -1,0 +1,53 @@
+library(corrplot)
+library(ggcorrplot)
+library(ggplo2)
+library(ggthemes)
+################# sample qc
+
+data=read.csv("Dia_vs_no_RNASeq.csv",row.names=1)
+palette = RColorBrewer::brewer.pal(6, "Set2")[1:3]
+dat = log2(edgeR::cpm(data1)+1)
+
+PCA<- exprPCA(expr = dat, group_list = group_list1,
+              palette = palette,
+              filename = NA, main = "PCA of RNA_seq",
+              width=6, height = 6)+ theme_par()+ theme(plot.title = element_text(face = NULL))
+PCA
+ggsave("PCA for RNAseq.pdf",width = 5,height = 5)
+
+demo<- exprRidges(
+  expr=dat,
+  group_list1,
+  palette = RColorBrewer::brewer.pal(3, "Set2")[1:3],
+  main = "Density of gene expression of RNAseq",
+  filename = NA,
+  x = "Samples",
+  y = "log2(cpm(count)+1)",
+  height = 5,
+  width = 8.3
+) 
+demo
+ggsave("Density of gene expression of RNAseq.pdf",width = 6,height = 4)
+
+############ corr
+
+# rpf<- ggcorrplot(cor_data,method="circle",
+#                  hc.order=F,outline.color="white",
+#                  type="lower",colors = c("#FC8D62", "white", "#66C2A5"),
+#                  lab = TRUE,tl.col = "black",lab_size = 3,show.diag = TRUE,
+#                  pch.col = "black")+ theme_bw()+ ggtitle("correlogram of RPF expression")+
+#   theme(axis.text.x = element_text(color="black", size=12,angle = 55, vjust = 0.5),axis.text.y = element_text(color="black",size=12))+
+#   theme(panel.grid.major.y = element_line(linetype='dotted', color='#808080'),
+#         panel.grid.major.x = element_line(linetype='dotted', color='#808080')) + xlab("")+ylab("")
+# 
+# 
+# rpf
+
+cor_data <- cor(data1,method="pearson")
+col3 <- colorRampPalette(c("#66C2A5", "white", "#FC8D62"))
+pdf("correlogram of RNA expression.pdf",width = 8,height = 6)
+rpf2<- corrplot(cor_data, tl.col="black",method = "circle",col =col3(100),
+                type = "upper",addCoef.col = "black", 
+                title = "correlogram of RNA expression")
+rpf2 
+dev.off()
