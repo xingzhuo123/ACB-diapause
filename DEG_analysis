@@ -1,0 +1,29 @@
+library(RNAseqStat2)
+library(stats)
+library(clusterProfiler)
+library(ggthemes)
+library(factoextra)
+
+setwd("E:\\data\\01.RNAseq\\RNAseqstate2/")
+
+data=read.csv("Dia_vs_no_RNASeq.csv",row.names=1)
+data1=read.csv("all_RNASeq.csv",row.names=1)
+
+head(data)
+group=read.csv("Group_dia_vs_no.csv")
+head(group)
+group1=read.csv("all_group.csv")
+
+group_list <- as.character(group$condition)
+group_list1 <- as.character(group1$condition)
+
+DVN <- Create_DEGContainer( dataType = "Counts",
+                               idType = "SYMBOL",
+                               expMatrix = data,
+                               groupInfo = group_list,
+                               caseGroup = "Diapause")
+
+
+# one step for all 
+data_o <- runALL(object = DVN,dir = "Dia_vs_No_RNASeq")
+
