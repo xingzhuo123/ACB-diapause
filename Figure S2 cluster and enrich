@@ -1,14 +1,12 @@
 devtools::install_github("junjunlab/ClusterGVis",force = TRUE)
 devtools::install_github("junjunlab/jjAnno")
 
-remove.packages('ClusterGVis')
-
+library(org.Ofurnacalis.eg.db)
 library(ClusterGVis)
 library(org.Mm.eg.db)
+
 setwd("D:\\data\\cluster")
-
-
-data<- read.csv("RPF_count_all.csv",row.names =1 )
+data<- read.csv("RPF_count_all2.csv",row.names =1 )
 
 dat2 = log2(edgeR::cpm(data)+1)
 dat2<- as.data.frame(data)
