@@ -1,0 +1,88 @@
+
+
+library(rtracklayer)
+library(tidyverse)
+
+devtools::install_github("junjunlab/BioSeqUtils")
+library(BioSeqUtils)
+load("my_workspace.RData")
+
+setwd("I:\\diapasue_data\\RNAseq_bw\\bwfile2")
+gtf <- import.gff("Ostrinia_furnacalis.gtf.gz",format = "gtf") |> 
+  data.frame()
+
+x = "114357617"
+gtf.new <- map_df(unique(gtf$gene_id)[1:100],function(x){
+  tmp <- gtf |> filter(gene_id == x)
+  tmp$gene_name <- as.character(na.omit(tmp$gene_name))
+  return(tmp)
+})
+
+# load bigwig files
+file <- list.files(path = "./",pattern = '.bw',full.names = T)
+file
+
+# select some chromosomes for test
+bw <- loadBigWig(bw_file = file,format = "bw")
+
+trackVisProMax(Input_gtf = gtf.new,
+               Input_bw = bw,
+               sample_fill_col=trmycol,
+               add_gene_region_label = T,
+               add_gene_label_layer = T,
+               exon_width = 0.5,
+               signal_range_pos = c(0.9,0.82),
+               sample_order =sample,
+               signal_range_label_params = list(size = 2.5,color = "black"),
+               trans_exon_arrow_params = list(arrow = arrow(length = unit(0.3,"mm")),
+                                              linewidth = 0.2),
+               sample_group_info = list("RNA-seq" = c("no_diapause_1" , "no_diapause_2" , "no_diapause_3",
+                                                      "Pre-diapause_1", "Pre-diapause_2" ,"Pre-diapause_3",
+                                                      "diapause_1" , "diapause_2","diapause_3"),
+                                        "Ribo-seq" = c("without_1" , "without_2" ,"without_3",
+                                                       "Pre_1" , "Pre_2" ,"Pre_3",
+                                                       "dia_10th_1", "dia_10th_2", "dia_10th_3")),
+               Input_gene = c("LOC114356220","LOC114356221","LOC114354259","LOC114359959"),
+               panel_size_setting=list(rows = c(8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,16),
+                                       cols = c(70,70)),
+               signal_range = list(LOC114356220 = c("no_diapause_1"= 6620 , "no_diapause_2"= 6620 , "no_diapause_3"= 6620,
+                                                    "Pre-diapause_1"= 6620, "Pre-diapause_2"= 6620 ,"Pre-diapause_3"= 6620,
+                                                    "diapause_1"= 6620 , "diapause_2"= 6620,"diapause_3"= 6620,
+                                                    "without_1"= 2000 , "without_2"= 2000  ,"without_3"= 2000 ,
+                                                    "Pre_1"= 2000  , "Pre_2"= 2000  ,"Pre_3"= 2000 ,
+                                                    "dia_10th_1"= 2000 , "dia_10th_2"= 2000 , "dia_10th_3"= 2000),
+                                   LOC114356221 = c("no_diapause_1"= 2350 , "no_diapause_2"= 2350 , "no_diapause_3"= 2350,
+                                                    "Pre-diapause_1"= 2350, "Pre-diapause_2"= 2350 ,"Pre-diapause_3"= 2350,
+                                                    "diapause_1"= 2350 , "diapause_2"= 2350,"diapause_3"= 2350,
+                                                    "without_1"= 500 , "without_2"= 500  ,"without_3"= 500 ,
+                                                    "Pre_1"= 500  , "Pre_2"= 500  ,"Pre_3"= 500 ,
+                                                    "dia_10th_1"= 500 , "dia_10th_2"= 500 , "dia_10th_3"= 500),
+                                   LOC114354259 = c("no_diapause_1"= 65 , "no_diapause_2"= 65 , "no_diapause_3"= 65,
+                                                    "Pre-diapause_1"= 65, "Pre-diapause_2"= 65 ,"Pre-diapause_3"= 65,
+                                                    "diapause_1"= 65 , "diapause_2"= 65,"diapause_3"= 65,
+                                                    "without_1"= 50 , "without_2"= 50  ,"without_3"= 50 ,
+                                                    "Pre_1"= 50  , "Pre_2"= 50  ,"Pre_3"= 50 ,
+                                                    "dia_10th_1"= 50 , "dia_10th_2"= 50 , "dia_10th_3"= 50),
+                                   LOC114359959 = c("no_diapause_1"= 52550 , "no_diapause_2"= 52550 , "no_diapause_3"= 52550,
+                                                    "Pre-diapause_1"= 52550, "Pre-diapause_2"= 52550 ,"Pre-diapause_3"= 52550,
+                                                    "diapause_1"= 52550 , "diapause_2"= 52550,"diapause_3"= 52550,
+                                                    "without_1"= 1500 , "without_2"= 1500  ,"without_3"= 1500 ,
+                                                    "Pre_1"= 1500  , "Pre_2"= 1500  ,"Pre_3"= 1500 ,
+                                                    "dia_10th_1"= 1500 , "dia_10th_2"= 1500 , "dia_10th_3"= 1500)))
+
+sample<- c("no_diapause_1" , "no_diapause_2" , "no_diapause_3",
+           "Pre-diapause_1", "Pre-diapause_2" ,"Pre-diapause_3",
+           "diapause_1" , "diapause_2","diapause_3",
+           "without_1" , "without_2" ,"without_3",
+           "Pre_1" , "Pre_2" ,"Pre_3",
+           "dia_10th_1", "dia_10th_2", "dia_10th_3" )
+
+
+trmycol <- c("no_diapause_1" = "#66c2a5", "no_diapause_2" = "#66c2a5", "no_diapause_3"= "#66c2a5",
+             "Pre-diapause_1" = "#fc8d62", "Pre-diapause_2"  = "#fc8d62","Pre-diapause_3"= "#fc8d62",
+             "diapause_1" = "#8da0cb", "diapause_2" = "#8da0cb","diapause_3"= "#8da0cb",
+             "without_1" = "#7fc97f", "without_2" = "#7fc97f","without_3"="#7fc97f",
+             "Pre_1" = "#beaed4", "Pre_2" = "#beaed4","Pre_3"="#beaed4",
+             "dia_10th_1" = "#fdc086", "dia_10th_2" = "#fdc086", "dia_10th_3" = "#fdc086")
+ggsave("hsp 70.tiff",width = 15,height = 9)
+ggsave("hsp 70.pdf",width = 12,height = 10)
