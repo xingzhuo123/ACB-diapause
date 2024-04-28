@@ -1,0 +1,26 @@
+
+library(clusterProfiler)
+library(stringr)
+library(ggplot2)
+library(enrichplot)
+
+df <- read.csv("larve4.csv", header=TRUE)
+y=new("compareClusterResult",
+      compareClusterResult=as.data.frame(df),
+      fun='compareKEGG')
+dotplot(y,
+        color= "pvalue",
+        showCategory =15,label_format=70,
+        title='Compare KEGG enrichement of different diapause type') +
+  facet_grid(. ~ group, scales = "free_x")  + xlab(NULL) +
+  scale_color_gradientn(colours=c("#E64B35",  "#4DBBD5"),
+                        guide=guide_colorbar(reverse=TRUE, order=1)) +
+  guides(size = guide_legend(override.aes=list(shape=1))) +
+  theme(panel.grid.major.y = element_line(linetype='dotted', color='#808080'),
+        panel.grid.major.x = element_blank(),
+        axis.text.y = element_text(size=10, color="black"),
+        axis.text.x = element_text(angle = 45, hjust = 1, size=11, color="black")) +
+  aes(shape=pvalue < 0.05)+scale_size(range=c(1, 6.5))+
+  theme(plot.title = element_text(hjust = 0.5))
+ggsave("compare Top 10 GO enrichment2.tiff",width = 8,height = 8)
+ggsave("compare Top 10 GO enrichment2.pdf",width = 8,height = 8)
