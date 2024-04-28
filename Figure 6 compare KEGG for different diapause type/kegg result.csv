@@ -1,0 +1,265 @@
+Cluster,Regulation,group,ID,Description,GeneRatio,BgRatio,pvalue,p.adjust,qvalue,geneID,Count
+Danaus plexippus,Danaus plexippus,adult diapause,map04213,Longevity regulating pathway - multiple species,4/41,54/1729,0.0365706,0.0365706,0.749324043,DPOGS215439-TA/DPOGS215443-TA/DPOGS204664-TA/DPOGS210663-TA,4
+Danaus plexippus,Danaus plexippus,adult diapause,map01523,Antifolate resistance,2/41,17/1729,0.059605017,0.059605017,0.749324043,DPOGS202939-TA/DPOGS202922-TA,2
+Danaus plexippus,Danaus plexippus,adult diapause,map04612,Antigen processing and presentation,2/41,17/1729,0.059605017,0.059605017,0.749324043,DPOGS209752-TA/DPOGS210663-TA,2
+Danaus plexippus,Danaus plexippus,adult diapause,map04742,Taste transduction,2/41,18/1729,0.066069507,0.066069507,0.749324043,DPOGS211942-TA/DPOGS205267-TA,2
+Danaus plexippus,Danaus plexippus,adult diapause,map00520,Amino sugar and nucleotide sugar metabolism,2/41,21/1729,0.08675425,0.08675425,0.749324043,DPOGS201756-TA/DPOGS207554-TA,2
+Danaus plexippus,Danaus plexippus,adult diapause,map04370,VEGF signaling pathway,2/41,21/1729,0.08675425,0.08675425,0.749324043,DPOGS215439-TA/DPOGS215443-TA,2
+Danaus plexippus,Danaus plexippus,adult diapause,map01120,Microbial metabolism in diverse environments,3/41,56/1729,0.144729337,0.144729337,0.749324043,DPOGS201154-TA/DPOGS204830-TA/DPOGS212589-TA,3
+Danaus plexippus,Danaus plexippus,adult diapause,map04010,MAPK signaling pathway,3/41,56/1729,0.144729337,0.144729337,0.749324043,DPOGS215439-TA/DPOGS215443-TA/DPOGS210663-TA,3
+Danaus plexippus,Danaus plexippus,adult diapause,map00480,Glutathione metabolism,2/41,29/1729,0.149203923,0.149203923,0.749324043,DPOGS207576-TA/DPOGS215638-TA,2
+Danaus plexippus,Danaus plexippus,adult diapause,map00513,Various types of N-glycan biosynthesis,2/41,29/1729,0.149203923,0.149203923,0.749324043,DPOGS215551-TA/DPOGS213757-TA,2
+Danaus plexippus,Danaus plexippus,adult diapause,map01200,Carbon metabolism,2/41,36/1729,0.20927922,0.20927922,0.749324043,DPOGS204830-TA/DPOGS212589-TA,2
+Danaus plexippus,Danaus plexippus,adult diapause,map04218,Cellular senescence,2/41,36/1729,0.20927922,0.20927922,0.749324043,DPOGS204664-TA/DPOGS210416-TA,2
+Danaus plexippus,Danaus plexippus,adult diapause,map00981,Insect hormone biosynthesis,1/41,10/1729,0.213861758,0.213861758,0.749324043,DPOGS213017-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map00982,Drug metabolism - cytochrome P450,2/41,37/1729,0.218091879,0.218091879,0.749324043,DPOGS201154-TA/DPOGS207576-TA,2
+Danaus plexippus,Danaus plexippus,adult diapause,map00620,Pyruvate metabolism,1/41,11/1729,0.232612001,0.232612001,0.749324043,DPOGS212589-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map00630,Glyoxylate and dicarboxylate metabolism,1/41,11/1729,0.232612001,0.232612001,0.749324043,DPOGS212589-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map00710,Carbon fixation in photosynthetic organisms,1/41,11/1729,0.232612001,0.232612001,0.749324043,DPOGS212589-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map03430,Mismatch repair,1/41,11/1729,0.232612001,0.232612001,0.749324043,DPOGS207853-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04978,Mineral absorption,1/41,11/1729,0.232612001,0.232612001,0.749324043,DPOGS210416-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04080,Neuroactive ligand-receptor interaction,2/41,39/1729,0.235818806,0.235818806,0.749324043,DPOGS211942-TA/DPOGS205267-TA,2
+Danaus plexippus,Danaus plexippus,adult diapause,map01110,Biosynthesis of secondary metabolites,5/41,141/1729,0.238320029,0.238320029,0.749324043,DPOGS206359-TA/DPOGS211515-TA/DPOGS204830-TA/DPOGS212589-TA/DPOGS215736-TA,5
+Danaus plexippus,Danaus plexippus,adult diapause,map04141,Protein processing in endoplasmic reticulum,3/41,73/1729,0.248366011,0.248366011,0.749324043,DPOGS215439-TA/DPOGS215443-TA/DPOGS210663-TA,3
+Danaus plexippus,Danaus plexippus,adult diapause,map00030,Pentose phosphate pathway,1/41,12/1729,0.250925684,0.250925684,0.749324043,DPOGS204830-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map00230,Purine metabolism,3/41,74/1729,0.254851965,0.254851965,0.749324043,DPOGS206359-TA/DPOGS204830-TA/DPOGS215736-TA,3
+Danaus plexippus,Danaus plexippus,adult diapause,map00565,Ether lipid metabolism,1/41,13/1729,0.268812724,0.268812724,0.749324043,DPOGS211515-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map00020,Citrate cycle (TCA cycle),1/41,14/1729,0.286282816,0.286282816,0.749324043,DPOGS212589-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map00260,"Glycine, serine and threonine metabolism",1/41,14/1729,0.286282816,0.286282816,0.749324043,DPOGS204745-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04975,Fat digestion and absorption,1/41,14/1729,0.286282816,0.286282816,0.749324043,DPOGS211515-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map03008,Ribosome biogenesis in eukaryotes,2/41,45/1729,0.289380061,0.289380061,0.749324043,DPOGS203876-TA/DPOGS215736-TA,2
+Danaus plexippus,Danaus plexippus,adult diapause,map03460,Fanconi anemia pathway,1/41,15/1729,0.303345443,0.303345443,0.749324043,DPOGS207853-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map01521,EGFR tyrosine kinase inhibitor resistance,1/41,16/1729,0.320009875,0.320009875,0.749324043,DPOGS204664-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04012,ErbB signaling pathway,1/41,16/1729,0.320009875,0.320009875,0.749324043,DPOGS204664-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04144,Endocytosis,3/41,85/1729,0.327476999,0.327476999,0.749324043,DPOGS202939-TA/DPOGS202922-TA/DPOGS210663-TA,3
+Danaus plexippus,Danaus plexippus,adult diapause,map04723,Retrograde endocannabinoid signaling,2/41,50/1729,0.333836485,0.333836485,0.749324043,DPOGS211942-TA/DPOGS202261-TA,2
+Danaus plexippus,Danaus plexippus,adult diapause,map03440,Homologous recombination,1/41,17/1729,0.336285179,0.336285179,0.749324043,DPOGS207853-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map00983,Drug metabolism - other enzymes,2/41,52/1729,0.351442443,0.351442443,0.749324043,DPOGS200820-TA/DPOGS207576-TA,2
+Danaus plexippus,Danaus plexippus,adult diapause,map04727,GABAergic synapse,1/41,19/1729,0.367703661,0.367703661,0.749324043,DPOGS211942-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map00270,Cysteine and methionine metabolism,1/41,20/1729,0.382863983,0.382863983,0.749324043,DPOGS212589-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map00970,Aminoacyl-tRNA biosynthesis,1/41,20/1729,0.382863983,0.382863983,0.749324043,DPOGS208409-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04066,HIF-1 signaling pathway,1/41,20/1729,0.382863983,0.382863983,0.749324043,DPOGS204664-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04927,Cortisol synthesis and secretion,1/41,20/1729,0.382863983,0.382863983,0.749324043,DPOGS208600-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map01100,Metabolic pathways,12/41,457/1729,0.396372248,0.396372248,0.749324043,DPOGS208409-TA/DPOGS215551-TA/DPOGS201756-TA/DPOGS214338-TA/DPOGS200820-TA/DPOGS213757-TA/DPOGS206359-TA/DPOGS211515-TA/DPOGS204830-TA/DPOGS212589-TA/DPOGS202261-TA/DPOGS215736-TA,12
+Danaus plexippus,Danaus plexippus,adult diapause,map04740,Olfactory transduction,1/41,21/1729,0.397669469,0.397669469,0.749324043,DPOGS203004-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map01230,Biosynthesis of amino acids,1/41,22/1729,0.412128223,0.412128223,0.749324043,DPOGS204830-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map03050,Proteasome,1/41,22/1729,0.412128223,0.412128223,0.749324043,DPOGS209752-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04976,Bile secretion,1/41,22/1729,0.412128223,0.412128223,0.749324043,DPOGS207746-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map03030,DNA replication,1/41,24/1729,0.440037044,0.440037044,0.752664073,DPOGS207853-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map03420,Nucleotide excision repair,1/41,24/1729,0.440037044,0.440037044,0.752664073,DPOGS207853-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map01524,Platinum drug resistance,1/41,26/1729,0.466651725,0.466651725,0.752664073,DPOGS207576-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04979,Cholesterol metabolism,1/41,28/1729,0.492030844,0.492030844,0.754019769,DPOGS207746-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map00564,Glycerophospholipid metabolism,1/41,29/1729,0.504274662,0.504274662,0.754019769,DPOGS211515-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map01522,Endocrine resistance,1/41,29/1729,0.504274662,0.504274662,0.754019769,DPOGS207746-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04726,Serotonergic synapse,1/41,29/1729,0.504274662,0.504274662,0.754019769,DPOGS205267-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04621,NOD-like receptor signaling pathway,1/41,30/1729,0.516230391,0.516230391,0.754019769,DPOGS210416-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04925,Aldosterone synthesis and secretion,1/41,30/1729,0.516230391,0.516230391,0.754019769,DPOGS208600-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04217,Necroptosis,1/41,33/1729,0.550434431,0.550434431,0.754019769,DPOGS210416-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04915,Estrogen signaling pathway,1/41,33/1729,0.550434431,0.550434431,0.754019769,DPOGS210663-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04972,Pancreatic secretion,1/41,33/1729,0.550434431,0.550434431,0.754019769,DPOGS211515-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04211,Longevity regulating pathway,1/41,34/1729,0.561302467,0.561302467,0.758516847,DPOGS204664-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04270,Vascular smooth muscle contraction,1/41,35/1729,0.57191403,0.57191403,0.76255204,DPOGS211515-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04014,Ras signaling pathway,1/41,37/1729,0.592391223,0.592391223,0.763245233,DPOGS211515-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04934,Cushing syndrome,1/41,38/1729,0.602268268,0.602268268,0.763245233,DPOGS208600-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04150,mTOR signaling pathway,1/41,39/1729,0.611911674,0.611911674,0.763245233,DPOGS204664-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04212,Longevity regulating pathway - worm,1/41,42/1729,0.63949338,0.63949338,0.763245233,DPOGS210763-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04151,PI3K-Akt signaling pathway,1/41,43/1729,0.648254952,0.648254952,0.763245233,DPOGS204664-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04921,Oxytocin signaling pathway,1/41,43/1729,0.648254952,0.648254952,0.763245233,DPOGS210416-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map00980,Metabolism of xenobiotics by cytochrome P450,1/41,44/1729,0.656808657,0.656808657,0.763245233,DPOGS207576-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04146,Peroxisome,1/41,44/1729,0.656808657,0.656808657,0.763245233,DPOGS210763-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04910,Insulin signaling pathway,1/41,44/1729,0.656808657,0.656808657,0.763245233,DPOGS204664-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04024,cAMP signaling pathway,1/41,47/1729,0.681270145,0.681270145,0.763245233,DPOGS205267-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04152,AMPK signaling pathway,1/41,47/1729,0.681270145,0.681270145,0.763245233,DPOGS204664-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map03013,Nucleocytoplasmic transport,1/41,56/1729,0.744886749,0.744886749,0.815362807,DPOGS204664-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map03040,Spliceosome,1/41,59/1729,0.763197614,0.763197614,0.815362807,DPOGS210663-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04142,Lysosome,1/41,60/1729,0.769011326,0.769011326,0.815362807,DPOGS211819-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map04714,Thermogenesis,2/41,116/1729,0.774594666,0.774594666,0.815362807,DPOGS213470-TA/DPOGS202261-TA,2
+Danaus plexippus,Danaus plexippus,adult diapause,map04932,Non-alcoholic fatty liver disease,1/41,74/1729,0.837158926,0.837158926,0.867209336,DPOGS202261-TA,1
+Danaus plexippus,Danaus plexippus,adult diapause,map00190,Oxidative phosphorylation,1/41,75/1729,0.841193056,0.841193056,0.867209336,DPOGS202261-TA,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04136,Autophagy - other,5/132,25/3366,0.00242478,0.00242478,0.204192038,mapl_CG3615/mapl_CG5092/mapl_CG6877/mapl_CG7109/mapl_CG7986,5
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00040,Pentose and glucuronate interconversions,6/132,51/3366,0.013707153,0.013707153,0.389062921,mapl_CG10072/mapl_CG10638/mapl_CG11594/mapl_CG3534/mapl_CG3597/mapl_CG4347,6
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00640,Propanoate metabolism,4/132,27/3366,0.019675593,0.019675593,0.389062921,mapl_CG15093/mapl_CG17691/mapl_CG17896/mapl_CG9390,4
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00561,Glycerolipid metabolism,5/132,42/3366,0.022809631,0.022809631,0.389062921,mapl_CG10638/mapl_CG1216/mapl_CG31991/mapl_CG5508/mapl_CG9886,5
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00600,Sphingolipid metabolism,4/132,31/3366,0.031284788,0.031284788,0.389062921,mapl_CG1471/mapl_CG1747/mapl_CG3132/mapl_CG3576,4
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00562,Inositol phosphate metabolism,5/132,46/3366,0.032472694,0.032472694,0.389062921,mapl_CG17896/mapl_CG4026/mapl_CG4200/mapl_CG6542/mapl_CG7004,5
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00630,Glyoxylate and dicarboxylate metabolism,4/132,33/3366,0.038324629,0.038324629,0.389062921,mapl_CG1743/mapl_CG3926/mapl_CG9390/mapl_CG9886,4
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04140,Autophagy - animal,8/132,99/3366,0.038657484,0.038657484,0.389062921,mapl_CG11173/mapl_CG12156/mapl_CG3615/mapl_CG5092/mapl_CG6542/mapl_CG6877/mapl_CG7109/mapl_CG7986,8
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map01200,Carbon metabolism,9/132,121/3366,0.045949885,0.045949885,0.389062921,mapl_CG10120/mapl_CG15093/mapl_CG17896/mapl_CG3127/mapl_CG31692/mapl_CG3926/mapl_CG7070/mapl_CG9390/mapl_CG9886,9
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00052,Galactose metabolism,4/132,35/3366,0.046201222,0.046201222,0.389062921,mapl_CG10638/mapl_CG3132/mapl_CG32444/mapl_CG4347,4
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00010,Glycolysis - Gluconeogenesis,5/132,55/3366,0.062484054,0.062484054,0.467272581,mapl_CG3127/mapl_CG31692/mapl_CG32444/mapl_CG7070/mapl_CG9390,5
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00450,Selenocompound metabolism,2/132,11/3366,0.066586343,0.066586343,0.467272581,mapl_CG5025/mapl_CG8363,2
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00260,"Glycine, serine and threonine metabolism",3/132,27/3366,0.086949449,0.086949449,0.50397964,mapl_CG10361/mapl_CG3926/mapl_CG9886,3
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04070,Phosphatidylinositol signaling system,5/132,61/3366,0.088988648,0.088988648,0.50397964,mapl_CG10082/mapl_CG4026/mapl_CG4200/mapl_CG6542/mapl_CG7004,5
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00534,Glycosaminoglycan biosynthesis - heparan sulfate - heparin,2/132,13/3366,0.089771373,0.089771373,0.50397964,mapl_CG32775/mapl_CG8339,2
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00250,"Alanine, aspartate and glutamate metabolism",3/132,29/3366,0.102745392,0.102745392,0.53764774,mapl_CG1345/mapl_CG1743/mapl_CG3926,3
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map01250,Biosynthesis of nucleotide sugars,3/132,30/3366,0.111041925,0.111041925,0.53764774,mapl_CG10072/mapl_CG1345/mapl_CG4347,3
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00531,Glycosaminoglycan degradation,2/132,15/3366,0.114922204,0.114922204,0.53764774,mapl_CG3132/mapl_CG6903,2
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map01230,Biosynthesis of amino acids,5/132,68/3366,0.126165286,0.126165286,0.559181325,mapl_CG1743/mapl_CG3127/mapl_CG5840/mapl_CG7070/mapl_CG7470,5
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00280,"Valine, leucine and isoleucine degradation",3/132,33/3366,0.137373151,0.137373151,0.578413269,mapl_CG15093/mapl_CG17691/mapl_CG17896,3
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04146,Peroxisome,6/132,91/3366,0.144888068,0.144888068,0.581004782,mapl_CG11919/mapl_CG32262/mapl_CG33671/mapl_CG3639/mapl_CG3926/mapl_CG4625,6
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00310,Lysine degradation,3/132,35/3366,0.155998716,0.155998716,0.585257063,mapl_CG1544/mapl_CG2995/mapl_CG42803,3
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04137,Mitophagy - animal,4/132,54/3366,0.159848335,0.159848335,0.585257063,mapl_CG17510/mapl_CG2960/mapl_CG3615/mapl_CG7524,4
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map03022,Basal transcription factors,3/132,40/3366,0.205554588,0.205554588,0.70270027,mapl_CG1276/mapl_CG3069/mapl_CG7764,3
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00350,Tyrosine metabolism,2/132,22/3366,0.212635521,0.212635521,0.70270027,mapl_CG42639/mapl_CG5793,2
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map03010,Ribosome,12/132,238/3366,0.220283221,0.220283221,0.70270027,mapl_CG10423/mapl_CG11522/mapl_CG14206/mapl_CG17489/mapl_CG2960/mapl_CG3203/mapl_CG4087/mapl_CG5920/mapl_CG8332/mapl_CG8415/mapl_CG8922/mapl_CG9091,12
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04214,Apoptosis - fly,4/132,63/3366,0.232680822,0.232680822,0.70270027,mapl_CG10079/mapl_CG1765/mapl_CG3048/mapl_CG32180,4
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04350,TGF-beta signaling pathway,3/132,43/3366,0.236834814,0.236834814,0.70270027,mapl_CG7109/mapl_CG8416/mapl_CG8881,3
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00030,Pentose phosphate pathway,2/132,24/3366,0.241992406,0.241992406,0.70270027,mapl_CG31692/mapl_CG9886,2
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00410,beta-Alanine metabolism,2/132,25/3366,0.256748485,0.256748485,0.720697501,mapl_CG15093/mapl_CG17896,2
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00520,Amino sugar and nucleotide sugar metabolism,3/132,48/3366,0.290523185,0.290523185,0.746493148,mapl_CG10072/mapl_CG1345/mapl_CG4347,3
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04013,MAPK signaling pathway - fly,5/132,93/3366,0.300090035,0.300090035,0.746493148,mapl_CG10079/mapl_CG3954/mapl_CG7109/mapl_CG7524/mapl_CG9553,5
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04320,Dorso-ventral axis formation,2/132,28/3366,0.301023724,0.301023724,0.746493148,mapl_CG10079/mapl_CG9659,2
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00620,Pyruvate metabolism,3/132,49/3366,0.301396609,0.301396609,0.746493148,mapl_CG10120/mapl_CG7070/mapl_CG9390,3
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00051,Fructose and mannose metabolism,2/132,29/3366,0.315711008,0.315711008,0.759605432,mapl_CG10638/mapl_CG31692,2
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04512,ECM-receptor interaction,1/132,11/3366,0.356431644,0.356431644,0.824296608,mapl_CG1560,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map03250,Viral life cycle - HIV-1,2/132,33/3366,0.373614937,0.373614937,0.824296608,mapl_CG12372/mapl_CG2903,2
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04391,Hippo signaling pathway - fly,3/132,56/3366,0.377620769,0.377620769,0.824296608,mapl_CG31196/mapl_CG42840/mapl_CG7109,3
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00670,One carbon pool by folate,1/132,12/3366,0.381752367,0.381752367,0.824296608,mapl_CG7560,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00770,Pantothenate and CoA biosynthesis,1/132,14/3366,0.429465236,0.429465236,0.844533667,mapl_CG32099,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map02010,ABC transporters,2/132,38/3366,0.443054063,0.443054063,0.844533667,mapl_CG31689/mapl_CG4822,2
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00564,Glycerophospholipid metabolism,3/132,63/3366,0.452115034,0.452115034,0.844533667,mapl_CG17907/mapl_CG4625/mapl_CG5508,3
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00062,Fatty acid elongation,1/132,16/3366,0.473521643,0.473521643,0.844533667,mapl_CG3971,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04392,Hippo signaling pathway - multiple species,1/132,16/3366,0.473521643,0.473521643,0.844533667,mapl_CG10295,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00220,Arginine biosynthesis,1/132,18/3366,0.514199823,0.514199823,0.844533667,mapl_CG1743,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00760,Nicotinate and nicotinamide metabolism,1/132,18/3366,0.514199823,0.514199823,0.844533667,mapl_CG8080,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00910,Nitrogen metabolism,1/132,18/3366,0.514199823,0.514199823,0.844533667,mapl_CG1743,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00860,Porphyrin metabolism,2/132,46/3366,0.544704143,0.544704143,0.844533667,mapl_CG2098/mapl_CG8971,2
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04144,Endocytosis,5/132,125/3366,0.548354675,0.548354675,0.844533667,mapl_CG10079/mapl_CG2903/mapl_CG4030/mapl_CG7524/mapl_CG8416,5
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04150,mTOR signaling pathway,4/132,100/3366,0.557442446,0.557442446,0.844533667,mapl_CG5092/mapl_CG8416/mapl_CG9104/mapl_CG9739,4
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00380,Tryptophan metabolism,1/132,21/3366,0.569440219,0.569440219,0.844533667,mapl_CG1544,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00730,Thiamine metabolism,1/132,21/3366,0.569440219,0.569440219,0.844533667,mapl_CG10581,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04130,SNARE interactions in vesicular transport,1/132,21/3366,0.569440219,0.569440219,0.844533667,mapl_CG11173,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00511,Other glycan degradation,1/132,22/3366,0.586430918,0.586430918,0.844533667,mapl_CG3132,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map03060,Protein export,1/132,23/3366,0.602756014,0.602756014,0.844533667,mapl_CG11110,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map03440,Homologous recombination,1/132,23/3366,0.602756014,0.602756014,0.844533667,mapl_CG3026,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04120,Ubiquitin mediated proteolysis,4/132,107/3366,0.611847521,0.611847521,0.844533667,mapl_CG1782/mapl_CG2960/mapl_CG8881/mapl_CG8998,4
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map03015,mRNA surveillance pathway,3/132,80/3366,0.614587496,0.614587496,0.844533667,mapl_CG5119/mapl_CG7109/mapl_CG9401,3
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04310,Wnt signaling pathway,4/132,108/3366,0.619282039,0.619282039,0.844533667,mapl_CG11614/mapl_CG8416/mapl_CG8881/mapl_CG9739,4
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00330,Arginine and proline metabolism,2/132,53/3366,0.622601375,0.622601375,0.844533667,mapl_CG5840/mapl_CG7470,2
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04145,Phagosome,3/132,82/3366,0.631476435,0.631476435,0.844533667,mapl_CG1560/mapl_CG1913/mapl_CG2903,3
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map01040,Biosynthesis of unsaturated fatty acids,1/132,25/3366,0.633511926,0.633511926,0.844533667,mapl_CG3971,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04330,Notch signaling pathway,1/132,25/3366,0.633511926,0.633511926,0.844533667,mapl_CG3619,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map03460,Fanconi anemia pathway,1/132,26/3366,0.64799155,0.64799155,0.844533667,mapl_CG3026,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map03040,Spliceosome,5/132,141/3366,0.656805588,0.656805588,0.844533667,mapl_CG14641/mapl_CG4528/mapl_CG6197/mapl_CG9401/mapl_CG9998,5
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00900,Terpenoid backbone biosynthesis,1/132,27/3366,0.661903261,0.661903261,0.844533667,mapl_CG33671,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04142,Lysosome,4/132,122/3366,0.713811699,0.713811699,0.89620777,mapl_CG17766/mapl_CG3132/mapl_CG6903/mapl_CG7780,4
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00500,Starch and sucrose metabolism,1/132,32/3366,0.723687774,0.723687774,0.89620777,mapl_CG4347,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00830,Retinol metabolism,1/132,34/3366,0.745137351,0.745137351,0.898115413,mapl_CG31991,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map03013,Nucleocytoplasmic transport,3/132,99/3366,0.754289153,0.754289153,0.898115413,mapl_CG9401/mapl_CG9423/mapl_CG9862,3
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00053,Ascorbate and aldarate metabolism,1/132,36/3366,0.764933475,0.764933475,0.898115413,mapl_CG10072,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00510,N-Glycan biosynthesis,1/132,37/3366,0.774251428,0.774251428,0.898115413,mapl_CG5091,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00790,Folate biosynthesis,1/132,40/3366,0.800061989,0.800061989,0.898115413,mapl_CG10638,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04341,Hedgehog signaling pathway - fly,1/132,40/3366,0.800061989,0.800061989,0.898115413,mapl_CG8881,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map01240,Biosynthesis of cofactors,4/132,139/3366,0.804246738,0.804246738,0.898115413,mapl_CG10072/mapl_CG2098/mapl_CG4347/mapl_CG8080,4
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04814,Motor proteins,3/132,111/3366,0.81962753,0.81962753,0.898115413,mapl_CG10846/mapl_CG15792/mapl_CG1913,3
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04624,Toll and Imd signaling pathway,2/132,81/3366,0.834874052,0.834874052,0.898115413,mapl_CG31217/mapl_CG6667,2
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map03420,Nucleotide excision repair,1/132,52/3366,0.877117406,0.877117406,0.898115413,mapl_CG7764,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map01212,Fatty acid metabolism,1/132,53/3366,0.882011945,0.882011945,0.898115413,mapl_CG3971,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map03050,Proteasome,1/132,53/3366,0.882011945,0.882011945,0.898115413,mapl_CG9324,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00230,Purine metabolism,2/132,92/3366,0.883560573,0.883560573,0.898115413,mapl_CG10581/mapl_CG8363,2
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04213,Longevity regulating pathway - multiple species,1/132,55/3366,0.891228012,0.891228012,0.898115413,mapl_CG5092,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map03018,RNA degradation,1/132,58/3366,0.90372916,0.90372916,0.898115413,mapl_CG5119,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04141,Protein processing in endoplasmic reticulum,3/132,135/3366,0.907187894,0.907187894,0.898115413,mapl_CG5105/mapl_CG8209/mapl_CG8881,3
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map01232,Nucleotide metabolism,1/132,60/3366,0.911260028,0.911260028,0.898115413,mapl_CG10581,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map04068,FoxO signaling pathway,1/132,65/3366,0.927625601,0.927625601,0.898115413,mapl_CG10079,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00190,Oxidative phosphorylation,3/132,146/3366,0.932734346,0.932734346,0.898115413,mapl_CG6030/mapl_CG6343/mapl_CG8680,3
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00980,Metabolism of xenobiotics by cytochrome P450,1/132,69/3366,0.938530607,0.938530607,0.898115413,mapl_CG3597,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00480,Glutathione metabolism,1/132,79/3366,0.959171926,0.959171926,0.907554749,mapl_CG31445,1
+Drosophila melanogaster,Drosophila melanogaster_2,egg diapause,map00983,Drug metabolism - other enzymes,1/132,96/3366,0.979695199,0.979695199,0.91667387,mapl_CG6917,1
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map03030,DNA replication,8/195,32/3045,0.000677725,0.065739365,0.055644824,114355732/114353404/114354900/114363354/114356759/114355552/114355733/114365101,8
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00230,Purine metabolism,14/195,98/3045,0.003305602,0.131719896,0.111493781,114366807/114349888/114355477/114355432/114350953/114363397/114353245/114355296/114355854/114359861/114353175/114354141/114364654/114363270,14
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map01232,Nucleotide metabolism,10/195,62/3045,0.00527722,0.131719896,0.111493781,114349888/114355432/114351305/114353245/114355291/114353752/114359861/114364654/114358547/114363270,10
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00983,Drug metabolism - other enzymes,12/195,84/3045,0.006404334,0.131719896,0.111493781,114352631/114355692/114364052/114349888/114355432/114351305/114353245/114353752/114364654/114357739/114358547/114357102,12
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map04146,Peroxisome,14/195,106/3045,0.006789685,0.131719896,0.111493781,114361734/114349925/114365055/114360362/114360564/114353509/114355432/114363279/114357391/114363520/114357154/114355856/114364654/114360319,14
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map04068,FoxO signaling pathway,9/195,62/3045,0.015767083,0.200201122,0.169459441,114349851/114361067/114351065/114358999/114355689/114362600/114359785/114357391/114355856,9
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00250,"Alanine, aspartate and glutamate metabolism",6/195,33/3045,0.016511433,0.200201122,0.169459441,114358173/114350953/114355501/114354714/114365359/114357154,6
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00981,Insect hormone biosynthesis,6/195,33/3045,0.016511433,0.200201122,0.169459441,114357983/114361122/114365517/114366772/114361407/114359032,6
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map04310,Wnt signaling pathway,10/195,77/3045,0.023322773,0.218376205,0.184843668,114351065/114359827/114361017/114355228/114361156/114357788/114355137/114354038/114355123/114355682,10
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00240,Pyrimidine metabolism,6/195,36/3045,0.024764312,0.218376205,0.184843668,114349888/114351305/114353245/114355291/114353752/114358547,6
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00630,Glyoxylate and dicarboxylate metabolism,6/195,36/3045,0.024764312,0.218376205,0.184843668,114361650/114358264/114357391/114355856/114362894/114352537,6
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map04213,Longevity regulating pathway - multiple species,9/195,69/3045,0.029948248,0.239364184,0.202608859,114366807/114361067/114362600/114354721/114359785/114357391/114353217/114358386/114355856,9
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map04150,mTOR signaling pathway,11/195,93/3045,0.033254057,0.239364184,0.202608859,114361067/114350171/114359827/114360073/114354445/114359785/114355228/114357788/114355137/114354038/114355123,11
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map04512,ECM-receptor interaction,4/195,20/3045,0.035152828,0.239364184,0.202608859,114355633/114354527/114354526/114358457,4
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00232,Caffeine metabolism,3/195,12/3045,0.03701508,0.239364184,0.202608859,114355432/114355854/114364654,3
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map01040,Biosynthesis of unsaturated fatty acids,6/195,41/3045,0.043913208,0.243866127,0.20641951,114349925/114354374/114354382/114358537/114354367/114361948,6
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00592,alpha-Linolenic acid metabolism,3/195,13/3045,0.045907633,0.243866127,0.20641951,114349925/114350435/114362987,3
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map01212,Fatty acid metabolism,9/195,75/3045,0.047767592,0.243866127,0.20641951,114349925/114354374/114354382/114358537/114354367/114361948/114366120/114349828/114351872,9
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map01230,Biosynthesis of amino acids,9/195,75/3045,0.047767592,0.243866127,0.20641951,114358173/114365597/114364278/114350710/114358927/114351744/114365359/114363520/114354141,9
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00040,Pentose and glucuronate interconversions,7/195,55/3045,0.058881528,0.284422723,0.24074848,114352631/114360575/114364052/114365938/114365861/114357739/114357102,7
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00062,Fatty acid elongation,4/195,24/3045,0.063236323,0.284422723,0.24074848,114354374/114354382/114354367/114366120,4
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00053,Ascorbate and aldarate metabolism,6/195,45/3045,0.064508247,0.284422723,0.24074848,114352631/114357983/114364052/114365861/114357739/114357102,6
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00620,Pyruvate metabolism,6/195,46/3045,0.070412864,0.296958601,0.251359423,114357983/114365861/114353914/114358264/114349828/114352537,6
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00830,Retinol metabolism,6/195,47/3045,0.076620062,0.309672751,0.262121265,114352631/114364052/114366011/114357739/114365907/114357102,6
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00030,Pentose phosphate pathway,4/195,27/3045,0.090140083,0.330848282,0.280045209,114350862/114354141/114350923/114366351,4
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00190,Oxidative phosphorylation,13/195,136/3045,0.092039109,0.330848282,0.280045209,114359121/114352757/114366214/114361873/114363990/114356839/114350594/114351921/114355495/114354599/114355159/114361921/114355826,13
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00590,Arachidonic acid metabolism,5/195,38/3045,0.09209179,0.330848282,0.280045209,114352771/114355002/114350435/114353081/114362987,5
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00531,Glycosaminoglycan degradation,3/195,18/3045,0.103787076,0.359548085,0.304338043,114359949/114358763/114365837,3
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00480,Glutathione metabolism,6/195,53/3045,0.12007013,0.393275568,0.332886536,114349888/114355002/114353245/114363520/114361327/114366310,6
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00380,Tryptophan metabolism,4/195,30/3045,0.121631619,0.393275568,0.332886536,114357983/114357391/114355856/114352766,4
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map01210,2-Oxocarboxylic acid metabolism,3/195,20/3045,0.132272612,0.413885271,0.350331537,114364278/114358927/114363520,3
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00220,Arginine biosynthesis,3/195,22/3045,0.163123012,0.457721071,0.387436176,114364278/114358927/114365359,3
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map01200,Carbon metabolism,11/195,124/3045,0.167146801,0.457721071,0.387436176,114349925/114365597/114353914/114350710/114361650/114357391/114363520/114354141/114355856/114362894/114352537,11
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00561,Glycerolipid metabolism,5/195,46/3045,0.168388585,0.457721071,0.387436176,114357983/114365861/114351169/114361441/114362639,5
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00260,"Glycine, serine and threonine metabolism",4/195,34/3045,0.169747731,0.457721071,0.387436176,114350710/114358264/114351744/114362894,4
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00340,Histidine metabolism,2/195,12/3045,0.176761777,0.457721071,0.387436176,114357983/114365450,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00670,One carbon pool by folate,2/195,12/3045,0.176761777,0.457721071,0.387436176,114355291/114362675,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00513,Various types of N-glycan biosynthesis,5/195,47/3045,0.179313409,0.457721071,0.387436176,114365833/114359949/114365369/114359348/114365837,5
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00520,Amino sugar and nucleotide sugar metabolism,5/195,48/3045,0.190497723,0.473802029,0.401047838,114354477/114361591/114359949/114355501/114365837,5
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00565,Ether lipid metabolism,3/195,24/3045,0.195865698,0.474974317,0.402040116,114350435/114362639/114362987,3
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00010,Glycolysis - Gluconeogenesis,5/195,49/3045,0.201925284,0.477725673,0.404368991,114357983/114365861/114365963/114365389/114359583,5
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00600,Sphingolipid metabolism,4/195,37/3045,0.209526978,0.483907544,0.409601611,114353474/114359949/114362639/114365837,4
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00982,Drug metabolism - cytochrome P450,5/195,52/3045,0.237500236,0.535756345,0.453488822,114352631/114364052/114355002/114357739/114357102,5
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00100,Steroid biosynthesis,3/195,29/3045,0.283046867,0.623989684,0.528173579,114358851/114352321/114358964,3
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00061,Fatty acid biosynthesis,2/195,17/3045,0.297815769,0.641958436,0.543383158,114349828/114351872,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00730,Thiamine metabolism,2/195,18/3045,0.322069356,0.66469633,0.562629558,114355362/114363270,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map03410,Base excision repair,2/195,18/3045,0.322069356,0.66469633,0.562629558,114363354/114356759,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00860,Porphyrin metabolism,4/195,46/3045,0.339925484,0.68693275,0.581451486,114352631/114364052/114357739/114357102,4
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map01240,Biosynthesis of cofactors,11/195,150/3045,0.364568124,0.705089985,0.596820606,114352631/114357983/114364052/114365861/114366011/114355362/114360504/114357739/114365907/114357102/114363270,11
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map04391,Hippo signaling pathway - fly,4/195,48/3045,0.369808726,0.705089985,0.596820606,114358736/114355123/114355682/114359590,4
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00564,Glycerophospholipid metabolism,5/195,63/3045,0.377986384,0.705089985,0.596820606,114351169/114350435/114361441/114362639/114362987,5
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00980,Metabolism of xenobiotics by cytochrome P450,5/195,63/3045,0.377986384,0.705089985,0.596820606,114352631/114364052/114355002/114357739/114357102,5
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map04142,Lysosome,9/195,126/3045,0.417348267,0.763826074,0.646537534,114351665/114358851/114366077/114359949/114353160/114366120/114358763/114365837/114358964,9
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00310,Lysine degradation,3/195,37/3045,0.425976148,0.765179376,0.647683031,114357983/114359123/114354176,3
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map02010,ABC transporters,3/195,38/3045,0.443344713,0.781898858,0.66183517,114355721/114353788/114356751,3
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00500,Starch and sucrose metabolism,2/195,24/3045,0.460968266,0.784454769,0.663998611,114361273/114365289,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00511,Other glycan degradation,2/195,24/3045,0.460968266,0.784454769,0.663998611,114359949/114365837,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00920,Sulfur metabolism,1/195,10/3045,0.484610523,0.810469323,0.686018526,114365597,1
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00640,Propanoate metabolism,2/195,27/3045,0.524075141,0.85148645,0.720737309,114349925/114349828,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00270,Cysteine and methionine metabolism,3/195,43/3045,0.526692649,0.85148645,0.720737309,114365597/114351744/114352537,3
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00410,beta-Alanine metabolism,2/195,30/3045,0.582054708,0.925562404,0.783438606,114349925/114357983,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00770,Pantothenate and CoA biosynthesis,1/195,14/3045,0.604892633,0.94636428,0.801046271,114357983,1
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00330,Arginine and proline metabolism,2/195,32/3045,0.61774591,0.951132591,0.805082389,114357983/114350718,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00760,Nicotinate and nicotinamide metabolism,1/195,16/3045,0.654103751,0.976124059,0.826236317,114359861,1
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00910,Nitrogen metabolism,1/195,16/3045,0.654103751,0.976124059,0.826236317,114358173,1
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map04341,Hedgehog signaling pathway - fly,2/195,35/3045,0.666840638,0.980053665,0.829562516,114360365/114359907,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00071,Fatty acid degradation,2/195,37/3045,0.696673792,0.980140109,0.829635686,114349925/114357983,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00650,Butanoate metabolism,1/195,18/3045,0.697213067,0.980140109,0.829635686,114358597,1
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map04215,Apoptosis - multiple species,1/195,18/3045,0.697213067,0.980140109,0.829635686,114352757,1
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map03430,Mismatch repair,1/195,19/3045,0.716718667,0.982531552,0.831659914,114363354,1
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00790,Folate biosynthesis,2/195,39/3045,0.724274118,0.982531552,0.831659914,114355362/114352766,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map04013,MAPK signaling pathway - fly,4/195,77/3045,0.737880361,0.982531552,0.831659914,114364263/114361338/114361017/114359373,4
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00020,Citrate cycle (TCA cycle),2/195,41/3045,0.749733713,0.982531552,0.831659914,114363520/114352537,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00350,Tyrosine metabolism,1/195,23/3045,0.783008672,0.982531552,0.831659914,114354577,1
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00562,Inositol phosphate metabolism,2/195,44/3045,0.784138041,0.982531552,0.831659914,114366257/114365389,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00052,Galactose metabolism,1/195,24/3045,0.797010429,0.982531552,0.831659914,114365963,1
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00514,Other types of O-glycan biosynthesis,1/195,25/3045,0.810113033,0.982531552,0.831659914,114350524,1
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map03008,Ribosome biogenesis in eukaryotes,3/195,69/3045,0.829569924,0.982531552,0.831659914,114362010/114365485/114356059,3
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map04070,Phosphatidylinositol signaling system,2/195,49/3045,0.832327513,0.982531552,0.831659914,114351169/114361468,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00900,Terpenoid backbone biosynthesis,1/195,27/3045,0.833846977,0.982531552,0.831659914,114361407,1
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map04745,Phototransduction - fly,1/195,27/3045,0.833846977,0.982531552,0.831659914,114350867,1
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map04214,Apoptosis - fly,2/195,50/3045,0.840722874,0.982531552,0.831659914,114352757/114358859,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map04624,Toll and Imd signaling pathway,2/195,50/3045,0.840722874,0.982531552,0.831659914,114357180/114357204,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map04141,Protein processing in endoplasmic reticulum,6/195,132/3045,0.861222258,0.994506655,0.841796192,114349984/114366070/114354721/114361919/114353217/114358386,6
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map01250,Biosynthesis of nucleotide sugars,1/195,31/3045,0.872821081,0.996042881,0.843096524,114355501,1
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map03420,Nucleotide excision repair,1/195,35/3045,0.902688854,0.997558377,0.84437931,114363354,1
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map04137,Mitophagy - animal,1/195,35/3045,0.902688854,0.997558377,0.84437931,114362600,1
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map03010,Ribosome,5/195,123/3045,0.905406167,0.997558377,0.84437931,114358146/114354318/114357959/114349662/114357953,5
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00510,N-Glycan biosynthesis,1/195,38/3045,0.920408205,0.997558377,0.84437931,114365833,1
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map00280,"Valine, leucine and isoleucine degradation",1/195,39/3045,0.925569629,0.997558377,0.84437931,114357983,1
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map04120,Ubiquitin mediated proteolysis,3/195,91/3045,0.938760549,0.999676973,0.846172587,114361017/114358430/114361919,3
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map03013,Nucleocytoplasmic transport,2/195,78/3045,0.965312537,0.999676973,0.846172587,114363066/114353973,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map04080,Neuroactive ligand-receptor interaction,2/195,83/3045,0.973935616,0.999676973,0.846172587,114363447/114350394,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map04140,Autophagy - animal,2/195,86/3045,0.978077243,0.999676973,0.846172587,114361067/114359991,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map03015,mRNA surveillance pathway,1/195,67/3045,0.988718937,0.999676973,0.846172587,114351689,1
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map03040,Spliceosome,2/195,123/3045,0.997599822,0.999676973,0.846172587,114353217/114362817,2
+Ostrinia furnacalis,Ostrinia furnacalis,larva diapause,map04144,Endocytosis,1/195,119/3045,0.999676973,0.999676973,0.846172587,114353217,1
