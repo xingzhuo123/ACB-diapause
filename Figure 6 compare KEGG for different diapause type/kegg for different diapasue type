@@ -4,7 +4,7 @@ library(stringr)
 library(ggplot2)
 library(enrichplot)
 
-df <- read.csv("larve4.csv", header=TRUE)
+df <- read.csv("kegg result.csv", header=TRUE)
 y=new("compareClusterResult",
       compareClusterResult=as.data.frame(df),
       fun='compareKEGG')
